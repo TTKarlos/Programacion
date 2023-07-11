@@ -8,7 +8,7 @@ public class RellenarArray {
         int numeroElementos;
         System.out.println("Escribe los elementos de la array: ");
         numeroElementos = teclado.nextInt();
-        char letras[] = new char[numeroElementos];
+        char[] letras = new char[numeroElementos];
 
 
         for (int i = 0; i < numeroElementos; i++) {
