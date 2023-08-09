@@ -1,11 +1,10 @@
 package Ejercicios;
 
 
-    import java.util.Map;
-import java.util.Random;
+    import java.util.Random;
 import java.util.Scanner;
 
-    public class Prueba2 {
+    public class ClinicaAntigua {
         public static final int NUMERO_DE_SALAS = 10;
         public static final int PERSONAS_POR_SALA = 9;
         public static final int MAXIMO_PERSONAS_POR_SALA = 10;
