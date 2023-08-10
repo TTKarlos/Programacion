@@ -1,4 +1,4 @@
-package Ejercicios;
+package MetodosYBusquedas;
 
 public class OrdenarArray {
     public static void main(String[] args) {
