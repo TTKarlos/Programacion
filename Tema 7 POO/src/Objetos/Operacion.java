@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Operacion {
     final static Scanner teclado = new Scanner(System.in);
     //Atributos
-    int num1;
-    int num2;
     int suma;
     int resta;
     int multiplicacion;
@@ -14,23 +12,17 @@ public class Operacion {
 
     //Metodos
 
-    public void leerNumeros (){
-        System.out.println("Escribe el numero 1: ");
-        num1 = teclado.nextInt();
-        System.out.println("Escribe el numero 2: ");
-        num2 = teclado.nextInt();
-    }
 
-    public void sumar(){
+    public void sumar(int num1 , int num2){
         suma = num1+num2;
     }
-    public void resta(){
+    public void resta(int num1, int num2){
         resta = num1-num2;
     }
-    public void multiplicacion(){
+    public void multiplicacion(int num1, int num2){
         multiplicacion = num1*num2;
     }
-    public void division(){
+    public void division(int num1, int num2){
         division = num1/num2;
     }
 
